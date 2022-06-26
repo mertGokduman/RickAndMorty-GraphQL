@@ -7,15 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		437E955146F5BD8E190B2349 /* Pods_RickAndMorty_GraphQL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF3F44C2AFFF0AC7EDA79EA0 /* Pods_RickAndMorty_GraphQL.framework */; };
 		B400A2322868B61100AED6D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B400A2312868B61100AED6D7 /* AppDelegate.swift */; };
 		B400A2342868B61100AED6D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B400A2332868B61100AED6D7 /* SceneDelegate.swift */; };
-		B400A2362868B61100AED6D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B400A2352868B61100AED6D7 /* ViewController.swift */; };
-		B400A2392868B61100AED6D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B400A2372868B61100AED6D7 /* Main.storyboard */; };
 		B400A23B2868B61200AED6D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B400A23A2868B61200AED6D7 /* Assets.xcassets */; };
 		B400A23E2868B61200AED6D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B400A23C2868B61200AED6D7 /* LaunchScreen.storyboard */; };
-		B400A2492868B61200AED6D7 /* RickAndMorty_GraphQLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B400A2482868B61200AED6D7 /* RickAndMorty_GraphQLTests.swift */; };
 		B400A2532868B61200AED6D7 /* RickAndMorty_GraphQLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B400A2522868B61200AED6D7 /* RickAndMorty_GraphQLUITests.swift */; };
 		B400A2552868B61200AED6D7 /* RickAndMorty_GraphQLUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B400A2542868B61200AED6D7 /* RickAndMorty_GraphQLUITestsLaunchTests.swift */; };
+		B400A2692868B6DC00AED6D7 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B400A2682868B6DC00AED6D7 /* HomeVC.swift */; };
+		B400A26B2868B6E500AED6D7 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B400A26A2868B6E500AED6D7 /* HomeViewModel.swift */; };
+		B400A26E2868B6FB00AED6D7 /* CharacterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B400A26D2868B6FB00AED6D7 /* CharacterTableViewCell.swift */; };
+		B400A2702868BD1700AED6D7 /* String + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B400A26F2868BD1700AED6D7 /* String + Extension.swift */; };
+		B400A2722868BD7C00AED6D7 /* SafeUnwrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = B400A2712868BD7C00AED6D7 /* SafeUnwrap.swift */; };
+		B400A2752868BEDA00AED6D7 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B400A2742868BEDA00AED6D7 /* Roboto-Bold.ttf */; };
+		B400A2772868BEE000AED6D7 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B400A2762868BEE000AED6D7 /* Roboto-Regular.ttf */; };
+		B400A2792868C15800AED6D7 /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = B400A2782868C15800AED6D7 /* schema.json */; };
+		B400A27D2868C17A00AED6D7 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = B400A27A2868C17A00AED6D7 /* Network.swift */; };
+		B400A27E2868C17A00AED6D7 /* Queries.graphql in Resources */ = {isa = PBXBuildFile; fileRef = B400A27B2868C17A00AED6D7 /* Queries.graphql */; };
+		B400A27F2868C17A00AED6D7 /* GraphQLQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = B400A27C2868C17A00AED6D7 /* GraphQLQuery.swift */; };
+		B400A2812868C3CA00AED6D7 /* ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B400A2802868C3CA00AED6D7 /* ObservableObject.swift */; };
+		B400A2842868D55200AED6D7 /* FilterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B400A2832868D55200AED6D7 /* FilterVC.swift */; };
+		B400A2892868D6D400AED6D7 /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B400A2882868D6D400AED6D7 /* CharacterView.swift */; };
+		B400A28B2868E4C800AED6D7 /* UIViewController + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B400A28A2868E4C800AED6D7 /* UIViewController + Extension.swift */; };
+		B400A28D2868FD9200AED6D7 /* FetchDataTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B400A28C2868FD9200AED6D7 /* FetchDataTest.swift */; };
+		F33C7C044EED1B29FA804A36 /* Pods_RickAndMorty_GraphQL_RickAndMorty_GraphQLUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 205B2B0D2C2C2E263FDD8CFB /* Pods_RickAndMorty_GraphQL_RickAndMorty_GraphQLUITests.framework */; };
+		F9B384B6D7B24D5B7DF9B165 /* Pods_RickAndMorty_GraphQLTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44BD61F73E91A6528B0F7093 /* Pods_RickAndMorty_GraphQLTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,19 +52,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A91E1B63CCD62AA3490F501 /* Pods-RickAndMorty-GraphQL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RickAndMorty-GraphQL.debug.xcconfig"; path = "Target Support Files/Pods-RickAndMorty-GraphQL/Pods-RickAndMorty-GraphQL.debug.xcconfig"; sourceTree = "<group>"; };
+		205B2B0D2C2C2E263FDD8CFB /* Pods_RickAndMorty_GraphQL_RickAndMorty_GraphQLUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RickAndMorty_GraphQL_RickAndMorty_GraphQLUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26AC363D30CA5750E611DDE1 /* Pods-RickAndMorty-GraphQL-RickAndMorty-GraphQLUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RickAndMorty-GraphQL-RickAndMorty-GraphQLUITests.debug.xcconfig"; path = "Target Support Files/Pods-RickAndMorty-GraphQL-RickAndMorty-GraphQLUITests/Pods-RickAndMorty-GraphQL-RickAndMorty-GraphQLUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		44BD61F73E91A6528B0F7093 /* Pods_RickAndMorty_GraphQLTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RickAndMorty_GraphQLTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		550554D9D48A7E5218CB71C0 /* Pods-RickAndMorty-GraphQLTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RickAndMorty-GraphQLTests.debug.xcconfig"; path = "Target Support Files/Pods-RickAndMorty-GraphQLTests/Pods-RickAndMorty-GraphQLTests.debug.xcconfig"; sourceTree = "<group>"; };
+		938FD059CC97F58D5B3848DE /* Pods-RickAndMorty-GraphQLTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RickAndMorty-GraphQLTests.release.xcconfig"; path = "Target Support Files/Pods-RickAndMorty-GraphQLTests/Pods-RickAndMorty-GraphQLTests.release.xcconfig"; sourceTree = "<group>"; };
+		9CEC29CDA6A4862E2E144191 /* Pods-RickAndMorty-GraphQL-RickAndMorty-GraphQLUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RickAndMorty-GraphQL-RickAndMorty-GraphQLUITests.release.xcconfig"; path = "Target Support Files/Pods-RickAndMorty-GraphQL-RickAndMorty-GraphQLUITests/Pods-RickAndMorty-GraphQL-RickAndMorty-GraphQLUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B400A22E2868B61100AED6D7 /* RickAndMorty-GraphQL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RickAndMorty-GraphQL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B400A2312868B61100AED6D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B400A2332868B61100AED6D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B400A2352868B61100AED6D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B400A2382868B61100AED6D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B400A23A2868B61200AED6D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B400A23D2868B61200AED6D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B400A23F2868B61200AED6D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B400A2442868B61200AED6D7 /* RickAndMorty-GraphQLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RickAndMorty-GraphQLTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B400A2482868B61200AED6D7 /* RickAndMorty_GraphQLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMorty_GraphQLTests.swift; sourceTree = "<group>"; };
 		B400A24E2868B61200AED6D7 /* RickAndMorty-GraphQLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RickAndMorty-GraphQLUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B400A2522868B61200AED6D7 /* RickAndMorty_GraphQLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMorty_GraphQLUITests.swift; sourceTree = "<group>"; };
 		B400A2542868B61200AED6D7 /* RickAndMorty_GraphQLUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMorty_GraphQLUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B400A2682868B6DC00AED6D7 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		B400A26A2868B6E500AED6D7 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		B400A26D2868B6FB00AED6D7 /* CharacterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterTableViewCell.swift; sourceTree = "<group>"; };
+		B400A26F2868BD1700AED6D7 /* String + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Extension.swift"; sourceTree = "<group>"; };
+		B400A2712868BD7C00AED6D7 /* SafeUnwrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeUnwrap.swift; sourceTree = "<group>"; };
+		B400A2742868BEDA00AED6D7 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		B400A2762868BEE000AED6D7 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		B400A2782868C15800AED6D7 /* schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
+		B400A27A2868C17A00AED6D7 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		B400A27B2868C17A00AED6D7 /* Queries.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Queries.graphql; sourceTree = "<group>"; };
+		B400A27C2868C17A00AED6D7 /* GraphQLQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphQLQuery.swift; sourceTree = "<group>"; };
+		B400A2802868C3CA00AED6D7 /* ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObject.swift; sourceTree = "<group>"; };
+		B400A2832868D55200AED6D7 /* FilterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterVC.swift; sourceTree = "<group>"; };
+		B400A2882868D6D400AED6D7 /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
+		B400A28A2868E4C800AED6D7 /* UIViewController + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Extension.swift"; sourceTree = "<group>"; };
+		B400A28C2868FD9200AED6D7 /* FetchDataTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchDataTest.swift; sourceTree = "<group>"; };
+		CA8209C95B25DF8215509761 /* Pods-RickAndMorty-GraphQL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RickAndMorty-GraphQL.release.xcconfig"; path = "Target Support Files/Pods-RickAndMorty-GraphQL/Pods-RickAndMorty-GraphQL.release.xcconfig"; sourceTree = "<group>"; };
+		FF3F44C2AFFF0AC7EDA79EA0 /* Pods_RickAndMorty_GraphQL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RickAndMorty_GraphQL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				437E955146F5BD8E190B2349 /* Pods_RickAndMorty_GraphQL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9B384B6D7B24D5B7DF9B165 /* Pods_RickAndMorty_GraphQLTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +110,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F33C7C044EED1B29FA804A36 /* Pods_RickAndMorty_GraphQL_RickAndMorty_GraphQLUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B55A02DC06EF8598A8663E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A91E1B63CCD62AA3490F501 /* Pods-RickAndMorty-GraphQL.debug.xcconfig */,
+				CA8209C95B25DF8215509761 /* Pods-RickAndMorty-GraphQL.release.xcconfig */,
+				26AC363D30CA5750E611DDE1 /* Pods-RickAndMorty-GraphQL-RickAndMorty-GraphQLUITests.debug.xcconfig */,
+				9CEC29CDA6A4862E2E144191 /* Pods-RickAndMorty-GraphQL-RickAndMorty-GraphQLUITests.release.xcconfig */,
+				550554D9D48A7E5218CB71C0 /* Pods-RickAndMorty-GraphQLTests.debug.xcconfig */,
+				938FD059CC97F58D5B3848DE /* Pods-RickAndMorty-GraphQLTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AA83C57FF4EE4E159C3BDD58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF3F44C2AFFF0AC7EDA79EA0 /* Pods_RickAndMorty_GraphQL.framework */,
+				205B2B0D2C2C2E263FDD8CFB /* Pods_RickAndMorty_GraphQL_RickAndMorty_GraphQLUITests.framework */,
+				44BD61F73E91A6528B0F7093 /* Pods_RickAndMorty_GraphQLTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B400A2252868B61100AED6D7 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +147,8 @@
 				B400A2472868B61200AED6D7 /* RickAndMorty-GraphQLTests */,
 				B400A2512868B61200AED6D7 /* RickAndMorty-GraphQLUITests */,
 				B400A22F2868B61100AED6D7 /* Products */,
+				1B55A02DC06EF8598A8663E9 /* Pods */,
+				AA83C57FF4EE4E159C3BDD58 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +165,11 @@
 		B400A2302868B61100AED6D7 /* RickAndMorty-GraphQL */ = {
 			isa = PBXGroup;
 			children = (
-				B400A2312868B61100AED6D7 /* AppDelegate.swift */,
-				B400A2332868B61100AED6D7 /* SceneDelegate.swift */,
-				B400A2352868B61100AED6D7 /* ViewController.swift */,
-				B400A2372868B61100AED6D7 /* Main.storyboard */,
-				B400A23A2868B61200AED6D7 /* Assets.xcassets */,
-				B400A23C2868B61200AED6D7 /* LaunchScreen.storyboard */,
+				B400A2652868B6B400AED6D7 /* Application */,
+				B400A2662868B6BE00AED6D7 /* Networking */,
+				B400A2852868D6A700AED6D7 /* Components */,
+				B400A2622868B69D00AED6D7 /* Utils */,
+				B400A2612868B68E00AED6D7 /* Supporting Files */,
 				B400A23F2868B61200AED6D7 /* Info.plist */,
 			);
 			path = "RickAndMorty-GraphQL";
@@ -113,7 +178,7 @@
 		B400A2472868B61200AED6D7 /* RickAndMorty-GraphQLTests */ = {
 			isa = PBXGroup;
 			children = (
-				B400A2482868B61200AED6D7 /* RickAndMorty_GraphQLTests.swift */,
+				B400A28C2868FD9200AED6D7 /* FetchDataTest.swift */,
 			);
 			path = "RickAndMorty-GraphQLTests";
 			sourceTree = "<group>";
@@ -127,6 +192,108 @@
 			path = "RickAndMorty-GraphQLUITests";
 			sourceTree = "<group>";
 		};
+		B400A2612868B68E00AED6D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B400A2732868BECD00AED6D7 /* Fonts */,
+				B400A23C2868B61200AED6D7 /* LaunchScreen.storyboard */,
+				B400A23A2868B61200AED6D7 /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B400A2622868B69D00AED6D7 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B400A2632868B6A200AED6D7 /* Extensions */,
+				B400A2712868BD7C00AED6D7 /* SafeUnwrap.swift */,
+				B400A2802868C3CA00AED6D7 /* ObservableObject.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B400A2632868B6A200AED6D7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B400A26F2868BD1700AED6D7 /* String + Extension.swift */,
+				B400A28A2868E4C800AED6D7 /* UIViewController + Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B400A2642868B6A800AED6D7 /* App-SceneDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				B400A2312868B61100AED6D7 /* AppDelegate.swift */,
+				B400A2332868B61100AED6D7 /* SceneDelegate.swift */,
+			);
+			path = "App-SceneDelegate";
+			sourceTree = "<group>";
+		};
+		B400A2652868B6B400AED6D7 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				B400A2642868B6A800AED6D7 /* App-SceneDelegate */,
+				B400A2672868B6C600AED6D7 /* HomeVC */,
+				B400A2822868D52700AED6D7 /* FilterVC */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		B400A2662868B6BE00AED6D7 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				B400A27C2868C17A00AED6D7 /* GraphQLQuery.swift */,
+				B400A27A2868C17A00AED6D7 /* Network.swift */,
+				B400A27B2868C17A00AED6D7 /* Queries.graphql */,
+				B400A2782868C15800AED6D7 /* schema.json */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		B400A2672868B6C600AED6D7 /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				B400A26C2868B6EB00AED6D7 /* CharacterCell */,
+				B400A2682868B6DC00AED6D7 /* HomeVC.swift */,
+				B400A26A2868B6E500AED6D7 /* HomeViewModel.swift */,
+			);
+			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		B400A26C2868B6EB00AED6D7 /* CharacterCell */ = {
+			isa = PBXGroup;
+			children = (
+				B400A26D2868B6FB00AED6D7 /* CharacterTableViewCell.swift */,
+			);
+			path = CharacterCell;
+			sourceTree = "<group>";
+		};
+		B400A2732868BECD00AED6D7 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B400A2742868BEDA00AED6D7 /* Roboto-Bold.ttf */,
+				B400A2762868BEE000AED6D7 /* Roboto-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		B400A2822868D52700AED6D7 /* FilterVC */ = {
+			isa = PBXGroup;
+			children = (
+				B400A2832868D55200AED6D7 /* FilterVC.swift */,
+			);
+			path = FilterVC;
+			sourceTree = "<group>";
+		};
+		B400A2852868D6A700AED6D7 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B400A2882868D6D400AED6D7 /* CharacterView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +301,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B400A2582868B61300AED6D7 /* Build configuration list for PBXNativeTarget "RickAndMorty-GraphQL" */;
 			buildPhases = (
+				2415137AA14FFA6219319C1E /* [CP] Check Pods Manifest.lock */,
 				B400A22A2868B61100AED6D7 /* Sources */,
 				B400A22B2868B61100AED6D7 /* Frameworks */,
 				B400A22C2868B61100AED6D7 /* Resources */,
+				01062EEBCED869A4F1983FD1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +320,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B400A25B2868B61300AED6D7 /* Build configuration list for PBXNativeTarget "RickAndMorty-GraphQLTests" */;
 			buildPhases = (
+				37581ED3A01C4FE151D5A281 /* [CP] Check Pods Manifest.lock */,
 				B400A2402868B61200AED6D7 /* Sources */,
 				B400A2412868B61200AED6D7 /* Frameworks */,
 				B400A2422868B61200AED6D7 /* Resources */,
@@ -169,9 +339,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B400A25E2868B61300AED6D7 /* Build configuration list for PBXNativeTarget "RickAndMorty-GraphQLUITests" */;
 			buildPhases = (
+				02331102163CD47A3CC9F77C /* [CP] Check Pods Manifest.lock */,
 				B400A24A2868B61200AED6D7 /* Sources */,
 				B400A24B2868B61200AED6D7 /* Frameworks */,
 				B400A24C2868B61200AED6D7 /* Resources */,
+				064CDCAA1311982B6D87FAB2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,9 +403,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B400A27E2868C17A00AED6D7 /* Queries.graphql in Resources */,
 				B400A23E2868B61200AED6D7 /* LaunchScreen.storyboard in Resources */,
+				B400A2792868C15800AED6D7 /* schema.json in Resources */,
 				B400A23B2868B61200AED6D7 /* Assets.xcassets in Resources */,
-				B400A2392868B61100AED6D7 /* Main.storyboard in Resources */,
+				B400A2772868BEE000AED6D7 /* Roboto-Regular.ttf in Resources */,
+				B400A2752868BEDA00AED6D7 /* Roboto-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +428,127 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01062EEBCED869A4F1983FD1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RickAndMorty-GraphQL/Pods-RickAndMorty-GraphQL-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RickAndMorty-GraphQL/Pods-RickAndMorty-GraphQL-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RickAndMorty-GraphQL/Pods-RickAndMorty-GraphQL-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		02331102163CD47A3CC9F77C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RickAndMorty-GraphQL-RickAndMorty-GraphQLUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		064CDCAA1311982B6D87FAB2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RickAndMorty-GraphQL-RickAndMorty-GraphQLUITests/Pods-RickAndMorty-GraphQL-RickAndMorty-GraphQLUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RickAndMorty-GraphQL-RickAndMorty-GraphQLUITests/Pods-RickAndMorty-GraphQL-RickAndMorty-GraphQLUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RickAndMorty-GraphQL-RickAndMorty-GraphQLUITests/Pods-RickAndMorty-GraphQL-RickAndMorty-GraphQLUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2415137AA14FFA6219319C1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RickAndMorty-GraphQL-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37581ED3A01C4FE151D5A281 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RickAndMorty-GraphQLTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B400A22A2868B61100AED6D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B400A2362868B61100AED6D7 /* ViewController.swift in Sources */,
+				B400A2722868BD7C00AED6D7 /* SafeUnwrap.swift in Sources */,
+				B400A2692868B6DC00AED6D7 /* HomeVC.swift in Sources */,
+				B400A27D2868C17A00AED6D7 /* Network.swift in Sources */,
 				B400A2322868B61100AED6D7 /* AppDelegate.swift in Sources */,
+				B400A2702868BD1700AED6D7 /* String + Extension.swift in Sources */,
+				B400A2812868C3CA00AED6D7 /* ObservableObject.swift in Sources */,
+				B400A2892868D6D400AED6D7 /* CharacterView.swift in Sources */,
+				B400A26E2868B6FB00AED6D7 /* CharacterTableViewCell.swift in Sources */,
 				B400A2342868B61100AED6D7 /* SceneDelegate.swift in Sources */,
+				B400A26B2868B6E500AED6D7 /* HomeViewModel.swift in Sources */,
+				B400A2842868D55200AED6D7 /* FilterVC.swift in Sources */,
+				B400A28B2868E4C800AED6D7 /* UIViewController + Extension.swift in Sources */,
+				B400A27F2868C17A00AED6D7 /* GraphQLQuery.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +556,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B400A2492868B61200AED6D7 /* RickAndMorty_GraphQLTests.swift in Sources */,
+				B400A28D2868FD9200AED6D7 /* FetchDataTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +585,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B400A2372868B61100AED6D7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B400A2382868B61100AED6D7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B400A23C2868B61200AED6D7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -432,6 +712,7 @@
 		};
 		B400A2592868B61300AED6D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A91E1B63CCD62AA3490F501 /* Pods-RickAndMorty-GraphQL.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -442,9 +723,11 @@
 				INFOPLIST_FILE = "RickAndMorty-GraphQL/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,12 +737,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		B400A25A2868B61300AED6D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA8209C95B25DF8215509761 /* Pods-RickAndMorty-GraphQL.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -470,9 +754,11 @@
 				INFOPLIST_FILE = "RickAndMorty-GraphQL/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -482,12 +768,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		B400A25C2868B61300AED6D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 550554D9D48A7E5218CB71C0 /* Pods-RickAndMorty-GraphQLTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +795,7 @@
 		};
 		B400A25D2868B61300AED6D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 938FD059CC97F58D5B3848DE /* Pods-RickAndMorty-GraphQLTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +816,7 @@
 		};
 		B400A25F2868B61300AED6D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26AC363D30CA5750E611DDE1 /* Pods-RickAndMorty-GraphQL-RickAndMorty-GraphQLUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +835,7 @@
 		};
 		B400A2602868B61300AED6D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CEC29CDA6A4862E2E144191 /* Pods-RickAndMorty-GraphQL-RickAndMorty-GraphQLUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

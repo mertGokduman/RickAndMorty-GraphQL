@@ -1,0 +1,20 @@
+    query Character($page: Int!, $name: String!) {
+      characters(page: $page, filter: { name: $name }) {
+        __typename
+        info {
+            __typename
+            count
+            pages
+        }
+        results {
+          __typename
+          id
+          name
+          image
+          location {
+            __typename
+            name
+          }
+        }
+      }
+    }

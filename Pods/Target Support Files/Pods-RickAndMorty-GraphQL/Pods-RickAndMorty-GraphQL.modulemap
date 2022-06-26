@@ -1,0 +1,6 @@
+framework module Pods_RickAndMorty_GraphQL {
+  umbrella header "Pods-RickAndMorty-GraphQL-umbrella.h"
+
+  export *
+  module * { export * }
+}
